@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="refresh" content="10">
+    <title>In</title>
+</head>
+<body>
+    <p id="demo"></p>
+    <script>
+        function displayDate(){
+    let date = new Date();
+    let time = date.toLocaleTimeString();
+}
+const createClock = setInterval(displayDate, 1000);
+document.getElementById("demo").innerHTML = createClock
+// disaplayDate / displayDate() / setInterval / createClock
+    </script>
+</body>
+</html>
